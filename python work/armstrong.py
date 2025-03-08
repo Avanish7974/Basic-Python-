@@ -1,5 +1,5 @@
 # program to check the number is armstrong or not for three digit 
-n = int(input("Enter the three digit  number : "))
+n = int(input("Enter the three digits  number : "))
 ori = n
 sum = 0
 while(n>0):
