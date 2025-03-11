@@ -37,5 +37,4 @@ while(True):
             break 
 
 
-print("kl")
 
