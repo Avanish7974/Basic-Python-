@@ -15,6 +15,6 @@ while(i<=n2):
         if(rev==n1):
             print("Is palindrome",rev)
             i+=1
-    n1+=1    
+    n1+=1  
 
 #  wap using choice based user can exit from the program only if user can press 5      
