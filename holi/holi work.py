@@ -4,7 +4,7 @@ def noreturn_noargument():
     b=10
     c=a+b
     print("addition = ",c)
-noreturn_noargument()
+
 
 # 2. No Return With  argument 
 def noreturn_withargument(n):
@@ -13,7 +13,7 @@ def noreturn_withargument(n):
             print(i,end=" ")
         print()    
  
-noreturn_withargument(5)        
+      
 
 # 3. Return With no Argument
 def return_noargument():
@@ -22,12 +22,7 @@ def return_noargument():
     c=a+b
     d = a*b
     return c,d
-x = return_noargument()
-add = 0
-print(x)
-for i in x:
-    add = add + i
-    print(add)
+
     
 # 4. return with  argument
 def return_noargument(a,b):
@@ -35,23 +30,29 @@ def return_noargument(a,b):
     c=a+b
     d = a*b
     return c,d
-x = return_noargument(10,20)
-add = 0
-print(x)
-for i in x:
-    add = add + i
-    print(add)
 
 while(True):
-    ch=int(input("Enter THe number : "))
+    ch=int(input("Which Type Of function You Want To Run 1,2,3,4 : "))
     if(ch==1):
-        print("press 1")
+        noreturn_noargument()
+        
     elif(ch==2):
-        print("press 2")    
+        noreturn_withargument(5)
+            
     elif(ch==3):
-        print("press 3")
+        x = return_noargument()
+        add = 0
+        print(x)
+        for i in x:
+            add = add + i
+            print(add)
     elif(ch==4):
-        print("press 4") 
+        x = return_noargument(10,20)
+        add = 0
+        print(x)
+        for i in x:
+             add = add + i
+             print(add) 
         break
     else:
         print("Wrong")
