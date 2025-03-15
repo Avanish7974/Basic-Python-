@@ -25,7 +25,7 @@ def return_noargument():
 
     
 # 4. return with  argument
-def return_noargument(a,b):
+def return_argument(a,b):
     
     c=a+b
     d = a*b
@@ -47,7 +47,7 @@ while(True):
             add = add + i
             print(add)
     elif(ch==4):
-        x = return_noargument(10,20)
+        x = return_argument(10,20)
         add = 0
         print(x)
         for i in x:
