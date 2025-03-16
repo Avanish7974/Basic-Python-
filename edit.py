@@ -14,9 +14,6 @@ while(i<=n):
     if(i%2==0):
         sum = sum + i  
    
-    else:
-        s = s + i
-    i+=1
 
 
 
