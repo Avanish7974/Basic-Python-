@@ -18,9 +18,7 @@ while(i<=n):
         s = s + i
     i+=1
 
-print("The sum of Even numbers is : ",sum) 
-print("The sum of odd numbers is : ",s) 
-print("The sum of while  loop is : ",su) 
+
 
 # wap to find the 1-2+3-4+5---- input taken from user
 # wap to find factorial of any number take input
