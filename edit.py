@@ -8,12 +8,6 @@ i = 1
 sum = 0
 s = 0
 su = 0
-while(i<=n):
-    print("while loop ",i)
-    su = su + i
-    if(i%2==0):
-        sum = sum + i  
-   
 
 
 
