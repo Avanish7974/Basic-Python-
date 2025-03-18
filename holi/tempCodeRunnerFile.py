@@ -54,6 +54,4 @@ while(True):
              add = add + i
              print(add) 
         break
-    else:
-        print("Wrong")
-        
+   
