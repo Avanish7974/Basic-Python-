@@ -46,14 +46,3 @@ while(True):
         for i in x:
             add = add + i
             print(add)
-    elif(ch==4):
-        x = return_argument(10,20)
-        add = 0
-        print(x)
-        for i in x:
-             add = add + i
-             print(add) 
-        break
-    else:
-        print("Wrong")
-        
