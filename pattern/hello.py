@@ -31,11 +31,3 @@ def return_argument(a,b):
     d = a*b
     return c,d
 
-while(True):
-    ch=int(input("Which Type Of function You Want To Run 1,2,3,4 : "))
-    if(ch==1):
-        noreturn_noargument()
-        
-    elif(ch==2):
-        noreturn_withargument(5)
-            
