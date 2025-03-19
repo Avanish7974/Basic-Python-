@@ -39,10 +39,3 @@ while(True):
     elif(ch==2):
         noreturn_withargument(5)
             
-    elif(ch==3):
-        x = return_noargument()
-        add = 0
-        print(x)
-        for i in x:
-            add = add + i
-            print(add)
