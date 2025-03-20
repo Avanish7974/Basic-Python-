@@ -6,4 +6,10 @@
 
 # 4. Representation of list mylist = [1,2,34,5,'A','B','C','D']
 # 5.  In list position are specified which is known as Index,from start to end of an list 0,1,2,3 and so   on and from end to start from -1,-2,-3 and so on 
-
+# List is a type of data
+list = [10,20,30,4.44444,1,123453456788956789,'a','b']
+print(list)
+print(len(list))
+print(type(list))
+x = list[0]
+print(x)
