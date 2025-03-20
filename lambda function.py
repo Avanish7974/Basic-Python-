@@ -11,3 +11,9 @@ print(x)
 
 x = lambda y:y*12
 print(x(12))
+
+x = lambda y=18:y*12
+print(x(12))
+
+x = lambda y,z:y+z
+print(x(12,45))
