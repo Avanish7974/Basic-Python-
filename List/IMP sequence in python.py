@@ -14,8 +14,8 @@ print(type(list))
 
 x = list[0]
 print(x)
-# start : step : stop
-y = list[0:1:8]
+# start : stop : step
+y = list[0:8:2]
 print(y)
 
 # find the sum of all the element present in a list which is number usin for loop
@@ -31,4 +31,5 @@ print(max(list))
 print(min(list)) 
 print(sum(list))
 # find the second largest from list without using any inbuilt method of a list 
-   
+# find the ascending and descenning of list   
+
