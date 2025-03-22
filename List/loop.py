@@ -3,3 +3,4 @@ print(ls)
 
 ls1 = [i*i for i in range (1,11)]
 print(ls1)
+
