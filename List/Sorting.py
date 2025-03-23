@@ -8,7 +8,7 @@ for i in range(n):
             list[i] = list[j]
             list[j] = temp
 print(list)  
-hl
+
 
 
 # in an list there will be a odd number of entity swap the list in which way the entity will be changed from first to last and show on 
