@@ -1,6 +1,1 @@
-tup3=tuple(tup)
-# print(tup3) 
-# print(type(tup3))             
-
-
-       
+print(set*3)
