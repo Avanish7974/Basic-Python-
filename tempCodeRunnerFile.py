@@ -1,1 +1,2 @@
-print(set*3)
+ls3 = tuple(ls)       
+    # print(type(ls3)) 

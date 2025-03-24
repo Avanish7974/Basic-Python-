@@ -29,9 +29,12 @@ while(True):
             data = input("enter data value : ")
             ls.insert(n1,data)
     elif(ch==6):
-        break         
-    print(type(tup))        
+        break  
+    # ls3 = tuple(ls)       
+    # print(type(ls3))        
            
+ls3 = tuple(ls)       
+print(type(ls3))
 
 
 #  wap to append all the prime number in a list        
