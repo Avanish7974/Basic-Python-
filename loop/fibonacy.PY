@@ -79,5 +79,3 @@ while(z<=5):
     x=y
     y=z
     z=x+y
-
-     
