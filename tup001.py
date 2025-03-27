@@ -12,7 +12,9 @@ while(True):
             data = input("enter data value : ")
             ls.append(data)
     elif(ch==2):
-        print(ls)
+        ls3 = tuple(ls)
+        print(type(ls3))       
+        print(ls3)
     elif(ch==3):
         n = int(input("Enter the number of data to remove  : "))
         for i in range(n):
@@ -33,8 +35,8 @@ while(True):
     # ls3 = tuple(ls)       
     # print(type(ls3))        
            
-ls3 = tuple(ls)       
-print(type(ls3))
+# ls3 = tuple(ls)       
+# print(type(ls3))
 
 
 #  wap to append all the prime number in a list        
