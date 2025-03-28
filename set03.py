@@ -1,7 +1,7 @@
 # wap to make crud operation in set
 
 # CRUD - Create Read Update Delete
-set = {}
+s = set()
 while(True):
     ch=int(input("Enter Choice : "))
     if(ch == 1):
