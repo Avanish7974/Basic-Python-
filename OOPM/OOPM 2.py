@@ -22,3 +22,10 @@ class bank:
 obj = bank
 print(obj.PNB())  
 print("Interest is ",obj.ICICI())
+
+
+class myclass:
+    def display(self):
+        print(f"Hllo display={self}")
+ob = myclass       
+ob.display("val") 

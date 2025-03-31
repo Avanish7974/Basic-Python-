@@ -26,3 +26,8 @@
 # 2. it binds the attribute with the given argument 
 # 3. in python the self is not a keyword it should be first argument of the method we can access attributes or instance inside the class 
 # 4. it is an arbittery argument they can have any name
+class myclass:
+    def display(self):
+        print(f"Hllo display={self}")
+ob = myclass       
+ob.display("val") 
