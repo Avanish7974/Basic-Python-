@@ -21,4 +21,4 @@ class bank:
         return "7.5"
 obj = bank
 print(obj.PNB())  
-  
+print("Interest is ",obj.ICICI())
