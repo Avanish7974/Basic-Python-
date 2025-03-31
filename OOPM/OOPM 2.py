@@ -9,4 +9,16 @@ obj = college
 obj.duration() 
 obj.course()
 avanish = college
-avanish.coursefees()            
+avanish.coursefees()
+
+
+class bank:
+    def interestrate():
+        return "7%"
+    def ICICI():
+        return "7.2"
+    def PNB():
+        return "7.5"
+obj = bank
+print(obj.PNB())  
+  
