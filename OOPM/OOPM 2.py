@@ -8,4 +8,5 @@ class college:
 obj = college
 obj.duration() 
 obj.course()
-avanish            
+avanish = college
+avanish.coursefees()            
