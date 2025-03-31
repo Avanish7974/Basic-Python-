@@ -7,4 +7,5 @@ class college:
         print("duration of 1")
 obj = college
 obj.duration() 
-obj.course()            
+obj.course()
+avanish            
