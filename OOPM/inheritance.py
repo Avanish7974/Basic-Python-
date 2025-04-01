@@ -12,4 +12,6 @@ class myclassA:
 class myclassB(myclassA):
     def func2(self):
         print("This is derived or child class ")
-        
+obj=myclassB()        
+obj.func2()
+obj.func1()
