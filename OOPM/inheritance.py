@@ -15,3 +15,7 @@ class myclassB(myclassA):
 obj=myclassB()        
 obj.func2()
 obj.func1()
+
+# multilevel inheritance - in multilevel inheritance the one class can be inherited by another and further this
+# class are also inherited by another class so that we get multileveel
+
