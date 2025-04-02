@@ -1,3 +1,6 @@
+# multilevel inheritance - in multilevel inheritance the one class can be inherited by another and further this
+# class are also inherited by another class so that we get multileveel
+
 
 class dadaji :
     def dadaji1(self):
