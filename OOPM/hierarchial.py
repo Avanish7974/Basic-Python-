@@ -2,15 +2,18 @@
 class BANK:
     def rbiroi(self,amt):
         self.amt = amt
-        self.ir =self.ir*12/100
+        self.ir =self.amt*12/100
         print("RBIROI ",self.ir)
-class sbibank:
+class sbibank(BANK):
     def sbiroi(self,amt):
         self.amt = amt
-        self.ir =self.ir*12/100
+        self.ir =self.amt*12/100
         print("sbiROI ",self.ir)
-class iciciBANK:
+class iciciBANK(BANK):
     def iciciroi(self,amt):
         self.amt = amt
-        self.ir =self.ir*12/100
-        print("iciciROI ",self.ir)                
+        self.ir =self.amt*12/100
+        print("iciciROI ",self.ir) 
+obj = iciciBANK()
+obj.iciciroi(1000)
+obj.rbiroi(15000)                       
