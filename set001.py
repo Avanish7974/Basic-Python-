@@ -18,3 +18,10 @@ ls.remove(4)
 print(ls)
 set1.add("Add on")
 print(set1)
+
+
+s = {1,2,34,5}
+fs=frozenset(s)
+
+fs.add(7)  //it gives error
+print(s)
