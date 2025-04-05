@@ -6,4 +6,3 @@ class classb(classa):
         super().__init__()     
         print("This is class b")
 ob=classb()           
-kj
