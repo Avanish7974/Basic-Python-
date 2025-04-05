@@ -6,9 +6,16 @@ class class1:
         self.para=PARA
     def __mul__(self,other):
         return self.para*other.para
+    def __le__(self,other):
+        return self.para<=other.para
+    def __ls__(self,other):
+        return self.para<=other.para
 ob1 = class1(100)
 ob2 = class1(200)
 print(ob1*ob2)   
+print(ob1<=ob2)
+print(ob1<ob2)
+
 
 
 class mycls:
