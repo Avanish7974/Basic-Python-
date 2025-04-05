@@ -1,6 +1,6 @@
 # when we perform addition,subtraction,multiplication and so on ,on a object of an class we can overload the operator using magic method 
 
-
+# these are magic methods
 class class1:
     def __init__(self,PARA):
         self.para=PARA
