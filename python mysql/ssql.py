@@ -7,3 +7,4 @@
 # python needs a mysql driver to access the my sql data base 
 # pip(python installer packages) - 
 
+# to check the installation was successful or not write mysql.connector
