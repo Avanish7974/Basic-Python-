@@ -22,4 +22,4 @@ if ch==1:
     value = [rollno,name,address,class1]
     mycursor.execute(sql,value)
     mydb.commit()
-    print("added")d
+    print("added")
