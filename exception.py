@@ -13,3 +13,7 @@ try:
     print(c)
 except:
     print("Cannot be divided by Zero")    
+else:
+    print(c)    
+# we can also use else keyword with try and except     
+
