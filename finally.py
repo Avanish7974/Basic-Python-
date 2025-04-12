@@ -9,4 +9,4 @@ except:
 else:
     print(c)  
 finally:
-    print("CODE EXECUTED")    
+    print("CODE EXECUTED")
